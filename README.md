@@ -36,6 +36,13 @@ Incorrectly formatted records:
 
     Chris,Lee
 
+## INSTALL:
+
+* Install Node 10.4 or higher
+* clone repository
+* In the repository directory `npm i`
+
+
 ## USAGE:
 
 ### Interview Mode
