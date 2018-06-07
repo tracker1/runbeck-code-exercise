@@ -38,6 +38,13 @@ Incorrectly formatted records:
 
 ## USAGE:
 
+### Interview Mode
+
+    npm start
+
+
+### Arguments
+
     npm start -- --i test/data/input.csv --f csv --count 3
 
     --input, -i - path to the input file
