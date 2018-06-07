@@ -24,8 +24,9 @@ export default async ({input, format, count}) => {
       parser.on('end', () => {
         delete ctx.reader;
         resolve();
-      }).on('error', () => {
+      }).on('error', error => {
         delete ctx.reader;
+        reject(error);
       })
     );
 
