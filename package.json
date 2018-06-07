@@ -1,0 +1,33 @@
+{
+  "name": "runbeck-code-exercise",
+  "version": "1.0.0",
+  "private": true,
+  "description": "csv parse",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tracker1/runbeck-code-exercise.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tracker1/runbeck-code-exercise/issues"
+  },
+  "homepage": "https://github.com/tracker1/runbeck-code-exercise#readme",
+  "dependencies": {
+    "csv-streamify": "^4.0.0",
+    "esm": "^3.0.48",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "mz": "^2.7.0",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "cleanup": "rimraf output",
+    "prestart": "npm run cleanup",
+    "start": "node -r esm ."
+  }
+}
